@@ -23,8 +23,8 @@ darkThemeBtn.onclick = () => {
 };
 
 function setDarkTheme() {
-  document.querySelector('.page').classList.add('theme_dark');
-  lightThemeBtn.classList.remove('header__theme-button_is-active');
+  document.querySelector('.page').classList.add('theme__dark');
+  lightThemeBtn.classList.remove('.header__theme-button_type_dark');
   darkThemeBtn.classList.add('header__theme-button_is-active');
   darkThemeBtn.disabled = true;
   lightThemeBtn.disabled = false;
