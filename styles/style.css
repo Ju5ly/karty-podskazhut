@@ -1,11 +1,12 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 .page {
-    min-inline-size: 360px;
-    margin: 0;
+  min-inline-size: 360px;
+  margin: 0;
 }
 p,
 h1,
@@ -16,7 +17,7 @@ ul,
 ol,
 li,
 figure {
-    margin: 0;
+  margin: 0;
 }
 .visually-hidden {
     clip: rect(0 0 0 0);
@@ -78,8 +79,6 @@ a:focus-visible {
     display: flex;
     list-style-type: none;
     gap: 20px;
-    font-family: Raleway, Arial, sans-serif;
-    font-size: 18px;
 }
 .header__theme-button {
     font-size: inherit;
@@ -87,12 +86,12 @@ a:focus-visible {
     cursor: pointer;
     border: none;
     background: var(--bg-color);
-    position: relative;
 }
 .header__theme-button:hover {
     text-decoration: underline;
 }
 .header__theme-button_is-active {
+    position: relative;
     font-weight: bold;
     z-index: 0;
 }
@@ -131,7 +130,7 @@ a:focus-visible {
     line-height: normal;
 }
 .theme_dark .content_text-block_type_first-lettered > .content_paragraph:first-child:first-letter {
-    border: 1px solid currentColor;
+    border: 1px solid var(--text-color);
 }
 .content_figure {
     margin-block: 7%;
