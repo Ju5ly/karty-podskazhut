@@ -1,14 +1,13 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 .page {
-    min-inline-size: 360px;
-    margin: 0;
+  min-inline-size: 360px;
+  margin: 0;
 }
-
-
 p,
 h1,
 h2,
@@ -18,7 +17,7 @@ ul,
 ol,
 li,
 figure {
-    margin: 0;
+  margin: 0;
 }
 .visually-hidden {
     clip: rect(0 0 0 0);
