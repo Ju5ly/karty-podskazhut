@@ -80,6 +80,9 @@ a:focus-visible {
     display: flex;
     list-style-type: none;
     gap: 20px;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+
 }
 .header__theme-button {
     font-size: inherit;
@@ -87,12 +90,12 @@ a:focus-visible {
     cursor: pointer;
     border: none;
     background: var(--bg-color);
+    position: relative;
 }
 .header__theme-button:hover {
     text-decoration: underline;
 }
 .header__theme-button_is-active {
-    position: relative;
     font-weight: bold;
     z-index: 0;
 }
@@ -131,7 +134,7 @@ a:focus-visible {
     line-height: normal;
 }
 .theme_dark .content_text-block_type_first-lettered > .content_paragraph:first-child:first-letter {
-    border: 1px solid var(--text-color);
+    border: 1px solid currentColor;
 }
 .content_figure {
     margin-block: 7%;
